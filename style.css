@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(206, 198, 214);
+    padding: 1%;
+}
+#titulo_web {
+    text-align: center;
+}
+#navegador {
+    display: block;
+    list-style: none;
+    background-color: black;
+}
+.opcion {
+    display: inline-block;
+    padding: 20px 10px;
+
+}
+.opcion a {
+    color: #ffffff;
+    text-decoration: none;
+}
