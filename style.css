@@ -11,6 +11,7 @@ body {
     background-color: black;
 }
 .opcion {
+    position: relative;
     display: inline-block;
     padding: 20px 10px;
 
@@ -18,4 +19,16 @@ body {
 .opcion a {
     color: #ffffff;
     text-decoration: none;
+}
+.subOpcion {
+    position: absolute;
+    background-color: #ffffff;
+    width: 200% ;
+}
+.subOpcion li a {
+    display: block;
+    padding: 15px;
+}
+.subOpcion a {
+    color: black;
 }
